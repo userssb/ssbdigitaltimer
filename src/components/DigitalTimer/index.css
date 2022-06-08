@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.bg-cont {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-elapsed-cont {
+  background-color: #ffffff;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.timer {
+  color: #00d9f5;
+  font-weight: 500;
+}
+.txt-pause-run {
+  font-weight: bold;
+  font-size: 22px;
+}
+.icons-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  height: 32px;
+  width: 30px;
+}
+.play-pause-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.reset-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start-pause-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn-icon {
+  background-color: transparent;
+  border: none;
+}
+.buttons-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+.inc-dec-text {
+  height: 40px;
+  width: 60px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+.btn-pm {
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: bold;
+  border: none;
+  width: 30px;
+  height: 28px;
+  margin: 15px;
+}
+.text-cont {
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
